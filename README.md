@@ -18,4 +18,4 @@ $:docker start custom_postgresql_cont
 $:docker exec -it custom_postgresql_cont bash
 ### Step 8:
 $:psql
-####Now we are inside the database and we can \l, \dt to see schema, and query to our hearts desire.
+#### Now we are inside the database and we can \l, \dt to see schema, and query to our hearts desire.
