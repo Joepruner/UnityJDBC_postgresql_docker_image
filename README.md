@@ -16,6 +16,11 @@ $:docker run -it --name custom_postgresql_cont custom_postgresql_image:latest
 $:docker start custom_postgresql_cont
 ### Step 7:
 $:docker exec -it custom_postgresql_cont bash
+#### This gives us access to a bash shell for exploring the container.
 ### Step 8:
 $:psql
+### Alternate Step 7:
+$: docker exec -it custom_postgresql_cont psql
+#### This will skip a step and take us directly into the database 
+
 #### Now we are inside the database and we can \l, \dt to see schema, and query to our hearts desire.
