@@ -23,4 +23,9 @@ $:psql
 $: docker exec -it custom_postgresql_cont psql
 #### This will skip a step and take us directly into the database 
 
+### You can also avoid building the image if you like, and just load the .tar file, and continue from step 5.
+docker load -i <path to image tar file>
+
 #### Now we are inside the database and we can \l, \dt to see schema, and query to our hearts desire.
+
+
