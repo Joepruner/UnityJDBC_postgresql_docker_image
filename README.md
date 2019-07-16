@@ -28,4 +28,7 @@ docker load -i <path to image tar file>
 
 #### Now we are inside the database and we can \l, \dt to see schema, and query to our hearts desire.
 
+#### Super helpful:
+[Docker Cheat Sheet](https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf)
+
 
