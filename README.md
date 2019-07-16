@@ -10,7 +10,7 @@ cd into UnityJDBC_postgresql_docker_image folder
 ### Step 4:
 $: docker image build -t custom_postgresql_image .
 ### Step 5:
-$:docker run -it --name custom_postgresql_cont custom_postgresql_image:latest
+$:docker run -it -p 5432:5432 --name custom_postgresql_cont custom_postgresql_image:latest
 #### Wait for all inserts to complete 
 ### Step 6:
 $:docker start custom_postgresql_cont
