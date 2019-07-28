@@ -1,4 +1,4 @@
-\c tpch1g1z;
+\c tpch;
 
 INSERT INTO part VALUES(1,'goldenrod lace spring chartreuse ivory','Manufacturer#1','Brand#13','PROMO BURNISHED COPPER',7,'JUMBO PKG',901.00,'zMg1PACmQ 7RCCC7');
 INSERT INTO part VALUES(2,'snow ghost azure burnished lemon','Manufacturer#1','Brand#13','LARGE BRUSHED BRASS',1,'LG CASE',902.00,'Bxg4RlO6051n7NjN zn');

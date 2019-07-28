@@ -1,4 +1,4 @@
-\c tpch1g1z;
+\c tpch;
 
 INSERT INTO nation VALUES(0,'ALGERIA',0,'2Cxhl7 L1iwk6hMh300izngN32CPwCikyLk6khMzSRA');
 INSERT INTO nation VALUES(1,'ARGENTINA',1,'zQn3Okwz1wLn7PLS3OhCgn56kP5PyRikgi1B7lL');

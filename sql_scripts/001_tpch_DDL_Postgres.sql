@@ -1,4 +1,4 @@
-\c tpch1g1z;
+\c tpch;
 
 CREATE TABLE NATION  ( N_NATIONKEY  INTEGER NOT NULL,
                             N_NAME       CHAR(25) NOT NULL,
