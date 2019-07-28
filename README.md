@@ -11,6 +11,8 @@ cd into UnityJDBC_postgresql_docker_image folder
 $: docker image build -t postgresql_image .
 ### Step 5:
 $:docker run -it -p 5432:5432 --name postgresql_cont postgresql_image:latest
+
+##### You can also run the above with the flag -dit which runs it as a daemon so you don't need to open another terminal to interact with it.
 #### Wait for all inserts to complete 
 ### Step 6:
 $:docker start postgresql_cont
