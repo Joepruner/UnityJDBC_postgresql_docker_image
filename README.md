@@ -8,19 +8,21 @@ Clone the repository
 ### Step 3:
 cd into UnityJDBC_postgresql_docker_image folder
 ### Step 4:
-$: docker image build -t custom_postgresql_image .
+$: docker image build -t postgresql_image .
 ### Step 5:
-$:docker run -it -p 5432:5432 --name custom_postgresql_cont custom_postgresql_image:latest
+$:docker run -it -p 5432:5432 --name postgresql_cont postgresql_image:latest
+
+##### You can also run the above with the flag -dit which runs it as a daemon so you don't need to open another terminal to interact with it.
 #### Wait for all inserts to complete 
 ### Step 6:
-$:docker start custom_postgresql_cont
+$:docker start postgresql_cont
 ### Step 7:
-$:docker exec -it custom_postgresql_cont bash
+$:docker exec -it postgresql_cont bash
 #### This gives us access to a bash shell for exploring the container.
 ### Step 8:
 $:psql
 ### Alternate Step 7:
-$: docker exec -it custom_postgresql_cont psql
+$: docker exec -it postgresql_cont psql
 #### This will skip a step and take us directly into the database 
 
 ### You can also avoid building the image if you like, and just load the .tar file, and continue from step 5.
